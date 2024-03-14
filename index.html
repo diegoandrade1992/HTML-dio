@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DIO</title>
+</head>
+<body>
+    <h1>Resumo das aulas HTML da Digital Innovation One</h1>
+
+<h2 id="inicio">Índice</h2>
+
+<ul>
+    <li><a href="#historia">História da Web</a></li>
+    <li><a href="#clients">O que são Clients</a></li>
+    <li><a href="#servers">o que são Servers</a></li>
+    <li><a href="#linguagens">Linguagens de Programação</a></li>
+    <li><a href="#html">Estrutura Básica do HTML</a></li>
+    <li><a href="#server-side">Server-side</a></li>
+    <li><a href="#client-side">Client-side</a></li>
+    <li><a href="#estrutura">Estrutura Básica do HTML</a></li>
+    <li><a href="#tags">Tags e Atributos das Tags</a></li>
+    <li><a href="#textos">Textos</a></li>
+    <li><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+</ul>
+
+<hr>
+
+<h2 id="historia">História da Web</h2>
+<small><a href="#inicio">(voltar)</a></small>
+
+<p>
+    A web teve origem no final da década de 1960 e início da década de 1970, quando os primeiros computadores começaram a ser conectados em uma rede conhecida como <strong>ARPANET</strong>, desenvolvida pelo Departamento de Defesa dos Estados Unidos. 
+    <br> Esta rede inicialmente tinha fins militares e de pesquisa.
+</p>
+
+<p>
+    Em 1989, Tim Berners-Lee, um cientista da computação do <abbr title="Organização Europeia para Pesquisa Nuclear"><strong>CERN</strong></abbr>, 
+    propôs um sistema de gerenciamento de informações baseado em hipertexto para facilitar o compartilhamento de documentos entre pesquisadores. 
+    Esse sistema foi o embrião da World Wide Web.
+</p>
+
+<p>
+    Em 1990, Berners-Lee desenvolveu o primeiro navegador web, chamado de WorldWideWeb (mais tarde renomeado para Nexus), e o primeiro servidor web. 
+    Ele também criou as bases do <abbr title="HyperText Markup Language"><strong>HTML</strong></abbr>, <abbr title="Uniform Resource Identifier"><strong>URI</strong></abbr> e <abbr title="Hypertext Transfer Protocol"><strong>HTTP</strong></abbr>.
+</p>
+<p>
+    No início dos anos 1990, surgiram os primeiros navegadores populares, como o Mosaic, desenvolvido por Marc Andreessen e sua equipe na <abbr title="National Center for Supercomputing Applications"><strong>NCSA</strong></abbr>. 
+    O Mosaic foi o primeiro navegador a popularizar a web, tornando-a acessível para um público mais amplo.
+</p>
+<p>
+    Ao longo dos anos, a web continuou a se desenvolver com a criação de novas tecnologias, como <abbr title="Cascading Style Sheets"><strong>CSS</strong></abbr> para controle de estilo, 
+    JavaScript para interatividade e muitos outros padrões e tecnologias que contribuíram para a web que conhecemos hoje.
+</p>
+<p>
+    Grandes nomes associados ao desenvolvimento da web incluem Tim Berners-Lee, Marc Andreessen, Sir Tim Berners-Lee, Vint Cerf, Robert Cailliau, entre outros. 
+    Cada um contribuiu de maneira significativa para a evolução e popularização da web.
+</p>
+
+<hr>
+
+<h2 id="clients">O que são Clients</h2>
+<small><a href="#inicio">(voltar)</a></small>
+
+<p>
+    Clientes no contexto da web são os dispositivos ou softwares que acessam e consomem os recursos disponibilizados pelos servidores. 
+    Isso pode incluir navegadores da web (<i>como Google Chrome, Mozilla Firefox, etc.</i>), aplicativos web (<i>como aplicativos de e-mail baseados na web</i>), 
+    dispositivos móveis (<i>como smartphones e tablets</i>) e qualquer outro software que faça solicitações para os servidores da web.
+    
+</p>
+
+<hr>
+
+<h2 id="servers">o que são Servers</h2>
+<small><a href="#inicio">(voltar)</a></small>
+
+<p>
+    Os servidores na web são computadores ou sistemas de computadores que armazenam e fornecem recursos, dados e serviços para os clientes. 
+    Eles são responsáveis por processar as solicitações dos clientes e enviar as respostas apropriadas. Isso pode incluir servidores de hardware físico, 
+    bem como servidores de software, como servidores web (<i>como Apache, Nginx</i>), servidores de banco de dados (<i>como MySQL, PostgreSQL</i>), servidores de e-mail, entre outros. 
+    A hospedagem de sites é o serviço de fornecer espaço em servidores para hospedar sites e torná-los acessíveis na internet.
+</p>
+
+<hr>
+
+<h2 id="linguagens">Linguagens de Programação</h2>
+<small><a href="#inicio">(voltar)</a></small>
+
+<p>
+    Uma linguagem de programação é um conjunto de instruções que permite a um programador escrever código para controlar o comportamento de um computador ou software. 
+    Existem duas categorias principais de linguagens de programação na web: <strong>server-side</strong> (lado do servidor) e <strong>client-side</strong> (lado do cliente).
+</p>
+
+<h3 id="server-side">Server-side:</h3> São linguagens de programação que são executadas nos servidores para gerar conteúdo dinâmico e processar solicitações dos clientes. 
+Exemplos incluem: PHP, Python, Ruby, Java, C#, entre outros. Essas linguagens são usadas para criar a lógica de negócios, acessar bancos de dados e gerar páginas da web dinâmicas.
+
+<h3 id="client-side">Client-side:</h3> São linguagens de programação que são executadas nos navegadores dos clientes para manipular a interface do usuário e interagir com o conteúdo web. 
+Exemplos incluem JavaScript, HTML (<i>embora tecnicamente não seja uma linguagem de programação, é uma linguagem de marcação</i>), CSS. 
+O JavaScript é a linguagem mais comum para programação do lado do cliente e é usado para adicionar interatividade e dinamismo às páginas da web.
+
+<hr>
+
+<h2 id="estrutura">Estrutura Básica do HTML</h2>
+<small><a href="#inicio">(voltar)</a></small>
+
+<p>
+    O HTML segue uma estrutura básica composta por elementos principais, como <mark>&lt;html&gt;</mark>, <mark>&lt;head&gt;</mark> e <mark>&lt;body&gt;</mark>. O elemento <mark>&lt;html&gt;</mark> envolve todo o conteúdo da página, 
+    <mark>&lt;head&gt;</mark> contém metadados como título e links para estilos e scripts, enquanto <mark>&lt;body&gt;</mark> contém o conteúdo visível da página.
+</p>
+
+<hr>
+
+<h2 id="tags">Tags e Atributos das Tags</h2>
+<small><a href="#inicio">(voltar)</a></small>
+
+<p>
+    As tags são elementos usados para marcar diferentes partes do conteúdo da página. Cada tag pode ter atributos que fornecem informações adicionais sobre o elemento. 
+    Por exemplo, a tag <mark>&lt;img&gt;</mark> é usada para exibir imagens e pode ter atributos como src para especificar a localização da imagem e alt para fornecer um texto alternativo.
+</p>
+
+<hr>
+
+<h2 id="textos">Textos</h2>
+<small><a href="#inicio">(voltar)</a></small>
+
+<p>
+    Textos podem ser adicionados à página usando tags como <mark>&lt;p&gt;</mark> para parágrafos, <mark>&lt;h1&gt;</mark> a <mark>&lt;h6&gt;</mark> para títulos e subtítulos (sendo <mark>&lt;h1&gt;</mark> o mais importante e <mark>&lt;h6&gt;</mark> o menos), 
+    e <span> para marcar partes específicas de um texto.
+</p>
+
+<hr>
+
+<h2 id="listas">Listas Ordenadas e Não Ordenadas</h2>
+<small><a href="#inicio">(voltar)</a></small>
+
+<p>
+    Listas podem ser representadas usando <mark>&lt;ul&gt;</mark> para listas não ordenadas e <mark>&lt;ol&gt;</mark> para listas ordenadas. Cada item da lista é representado por <mark>&lt;li&gt;</mark>, dentro das tags <mark>&lt;ul&gt;</mark> ou <mark>&lt;ol&gt;</mark>.
+</p>
+</body>
+</html>
